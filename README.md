@@ -3,5 +3,5 @@ hands on of [Learn Blockchains by Building One](https://hackernoon.com/learn-blo
 run by python3.5 or later
 
 ```bash
-python ./blockchain
+python ./blockchain 5000
 ```

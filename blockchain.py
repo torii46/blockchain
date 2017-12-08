@@ -1,3 +1,4 @@
+import sys
 import hashlib
 import json
 from time import time
@@ -289,5 +290,6 @@ def consensus():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    port = int(sys.argv[1]) if len(sys.argv) >= 2 else 5000
+    app.run(host='0.0.0.0', port=port)
                       
